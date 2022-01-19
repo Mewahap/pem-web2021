@@ -405,14 +405,6 @@ header .search-bar-container label:hover{
     color: #244d4d;
 }
 
-
-
-
-
-
-
-
-
 /* Contact */
 .contact .row{
     display: flex;
@@ -460,11 +452,6 @@ header .search-bar-container label:hover{
     height: 15rem;
     resize: none;
 }
-
-
-
-
-
 
 /* Login */
 .login .row{
@@ -523,10 +510,7 @@ header .search-bar-container label:hover{
     resize: none;
 }
 
-
-
 /* About */
-
 .about .row{
     display: flex;
     align-items: center;
@@ -578,20 +562,12 @@ header .search-bar-container label:hover{
     line-height: 1.5;
 }
 
-
-
-
-
-
-
 /* pesan */
-
-  .container {
+.container {
     max-width: 1200px;
-  }
-  /*//////////////////////////////////////////////////////////////////
-  [ Contact ]*/
-  .container-contact {
+}
+
+.container-contact {
     width: 100%;
     min-height: 100vh;
     display: -webkit-box;
@@ -604,22 +580,21 @@ header .search-bar-container label:hover{
     align-items: center;
     padding: 15px;
     background: #B7CDB5;
-  }
+}
   
-  .wrap-contact100 {
+.wrap-contact100 {
     width: 500px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
     padding: 42px 55px 45px 55px;
-  }
-  /*------------------------------------------------------------------
-  [ Form ]*/
-  .contact100-form {
-    width: 100%;
-  }
+}
   
-  .contact100-form-title {
+.contact100-form {
+    width: 100%;
+}
+  
+.contact100-form-title {
     display: block;
     font-family: Helvetica, sans-serif;
     font-size: 35px;
@@ -628,26 +603,25 @@ header .search-bar-container label:hover{
     line-height: 1.2;
     text-align: center;
     padding-bottom: 44px;
-  }
-  /*------------------------------------------------------------------
-  [ Input ]*/
-  .wrap-input100 {
+}
+  
+.wrap-input100 {
     width: 100%;
     position: relative;
     border-bottom: 2px solid #d9d9d9;
     padding-bottom: 13px;
     margin-bottom: 27px;
-  }
+}
   
-  .label-input100 {
+.label-input100 {
     font-family: Helvetica, sans-serif;
     font-size: 13px;
     color: #666666;
     line-height: 1.5;
     padding-left: 5px;
-  }
+}
   
-  .input100 {
+.input100 {
     display: block;
     width: 100%;
     background: transparent;
@@ -656,9 +630,9 @@ header .search-bar-container label:hover{
     color: #333333;
     line-height: 1.2;
     padding: 0 5px;
-  }
+}
   
-  .focus-input100 {
+.focus-input100 {
     position: absolute;
     display: block;
     width: 100%;
@@ -666,9 +640,9 @@ header .search-bar-container label:hover{
     top: 0;
     left: 0;
     pointer-events: none;
-  }
+}
   
-  .focus-input100::before {
+.focus-input100::before {
     content: "";
     display: block;
     position: absolute;
@@ -681,101 +655,33 @@ header .search-bar-container label:hover{
     -moz-transition: all 0.4s;
     transition: all 0.4s;
     background: #7f7f7f;
-  }
+}
  
-  input.input100 {
+input.input100 {
     height: 40px;
-  }
+}
   
-  textarea.input100 {
+textarea.input100 {
     min-height: 110px;
     padding-top: 9px;
     padding-bottom: 13px;
-  }
+}
   
-  .input100:focus + .focus-input100::before {
+.input100:focus + .focus-input100::before {
     width: 100%;
-  }
+}
   
-  .has-val.input100 + .focus-input100::before {
+.has-val.input100 + .focus-input100::before {
     width: 100%;
-  }
-  /*------------------------------------------------------------------
+}
 
-  /*------------------------------------------------------------------
-  [ Responsive ]*/
-  @media (max-width: 576px) {
+@media (max-width: 576px) {
     .wrap-contact100 {
       padding: 72px 15px 65px 15px;
     }
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer */
 .footer {
     background: #f6fbf6;
 }
@@ -853,94 +759,7 @@ header .search-bar-container label:hover{
     padding: 5px;
 }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queris */
+/* Responsive */
 @media (max-width:1200px){
     html{
         font-size: 55%;
@@ -979,6 +798,12 @@ header .search-bar-container label:hover{
         background: #fff;
     }
 }
+
+@media (max-width: 576px) {
+    .wrap-contact100 {
+      padding: 72px 15px 65px 15px;
+    }
+  }
 
 @media (max-width:450px){
     html{
